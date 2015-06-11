@@ -812,7 +812,7 @@ public class JavaParser extends AbstractParser{
 	 * @return
 	 */
 	private String getTypeFullClassName(String type){
-		//System.out.println("get full type for"+type);
+		//System.out.println("get full type for "+type);
 		//封装类的包名java.lang不会出现在import里，这种情况要特别处理
 		if(type.equals("String")||type.equals("StringBuffer")
 				||type.equals("Integer")||type.equals("Integer[]")
